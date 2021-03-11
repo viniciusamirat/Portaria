@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+}
+
+body.fundo {
+    background-color: #26ade4;
+}
+
+div.caixa {
+    background-color: white;
+    height: 550px;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.267);
+}
+
+table {
+    width: 100%;
+}
+
+.login{
+    background-color: white;
+    width: 40%;
+    height: 200px;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.267);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+td {
+    width: 50%;
+}
+
+.sair {
+    text-align: center;
+}
+
+.botao {
+    width: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    text-align: center;
+}
+
+.botaoForm {
+    width: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: #26ade4;
+    text-align: center;
+    color: white;
+}
